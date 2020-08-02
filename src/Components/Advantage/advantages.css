@@ -1,0 +1,20 @@
+.advantages h5{
+    font-weight: 900 !important;
+    color: darkslategray;
+}
+.advantages p{
+    font-weight: 500;
+}
+.advantages {
+    text-align: center;
+}
+
+@media (max-width:820px){
+    .advantages h5{
+        font-size: 16px !important;
+    }
+    .advantages p{
+        font-size: 12px !important;
+        text-align: center;
+    }
+}

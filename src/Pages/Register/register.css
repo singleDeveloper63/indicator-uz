@@ -1,0 +1,67 @@
+.register{
+    box-shadow: 0 0 80px rgba(0,0,0,0.1);
+}
+.register label> h5,.register h4{
+    font-weight: 900 !important;
+    color: darkslategray !important;
+}
+
+.register img{
+    width:300px;
+}
+
+.register input,.register input:empty{
+    height: 50px !important;
+    border: none !important;
+    border: 1px solid lightgray !important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.register input:focus{
+    border: 2px solid #3ad654 !important;
+}
+.register button{
+    width: 400px !important;
+    height: 50px !important;
+    border-radius: 5px !important;
+    font-size: 20px !important;
+    font-weight: 900 !important;
+}
+
+.register .input-group .addon{
+    width: 50px !important;
+    border: 1px solid lightgray;
+    color: gray !important;
+    transition: 0 !important;
+    border-left: none !important;
+    background: white !important;
+    padding: 0 !important;
+    border-radius: 0px 5px 5px 0px !important;
+}
+.register .input-group input{
+    border: 1px solid lightgray !important;
+    font-size: 20px !important;
+    letter-spacing: 1px !important;
+    border-radius: 5px 0px 0px 5px !important;
+    transition: 0s !important;
+}
+.register .input-group input:focus{
+    border: 2px solid  #3ad654 !important;
+    border-right: none !important;
+}
+.register .input-group input:focus +.input-group-btn button{
+    border: 2px solid #3ad654;
+}
+@media (max-width:500px){
+    .register{
+        box-shadow: 0px 0px 0px !important;
+    }
+    .register img{
+        width: 200px;
+    }
+    .register button:not(.addon){
+        width:200px !important;
+        font-size:16px !important
+    }
+
+}

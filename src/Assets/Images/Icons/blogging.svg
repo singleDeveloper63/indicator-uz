@@ -1,0 +1,10 @@
+<svg id="blogging" xmlns="http://www.w3.org/2000/svg" width="20" height="10.763" viewBox="0 0 20 10.763">
+  <g id="Group_80" data-name="Group 80">
+    <g id="Group_79" data-name="Group 79">
+      <path id="Path_61" data-name="Path 61" d="M2.093,10.523a.782.782,0,0,0,1.127,0l1.875-1.95a.779.779,0,0,0,.218-.54V.78A.781.781,0,0,0,4.531,0H.781A.781.781,0,0,0,0,.78V8.033a.779.779,0,0,0,.218.54ZM1.562,1.56H3.75V7.719L2.656,8.857,1.562,7.719Z" fill="#fff"/>
+      <path id="Path_62" data-name="Path 62" d="M186.78,1.56h11.172a.78.78,0,1,0,0-1.56H186.78a.78.78,0,1,0,0,1.56Z" transform="translate(-178.733)" fill="#fff"/>
+      <path id="Path_65" data-name="Path 65" d="M197.952,118H186.78a.78.78,0,1,0,0,1.56h11.172a.78.78,0,1,0,0-1.56Z" transform="translate(-178.733 -113.399)" fill="#fff"/>
+      <path id="Path_66" data-name="Path 66" d="M197.952,236H186.78a.78.78,0,1,0,0,1.56h11.172a.78.78,0,1,0,0-1.56Z" transform="translate(-178.733 -226.797)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

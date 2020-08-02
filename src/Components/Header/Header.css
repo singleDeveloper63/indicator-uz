@@ -1,0 +1,81 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-header,nav{
+    background: #3ad654 !important;
+}
+
+.navbar-header{
+    width: 100% !important;
+    height: 100%;
+    font-family: Standart !important;
+}
+.navbar-header>.right>div,.navbar-header>.left>div{
+    display: inline-block;
+    padding: 8px;
+    text-align: center !important;
+    color: white !important;
+    border-right: 1px solid lightgray !important;
+}
+.navbar-header>.float-right>div:last-of-type{
+    border: none !important;
+}
+.navbar-header a:not(.lang):hover{
+    text-decoration: underline !important;
+}
+
+.navbar{
+    font-family: Standart;
+    transition: 0.3s !important;
+}
+.navbar .nav-link{
+    font-size: 20px !important;
+    color: white !important;
+    padding: 5px 20px 10px 20px !important;
+}
+.navbar .nav-link:hover{
+    color: rgb(8, 155, 8) !important;
+}
+@media (max-width:1199px){
+    .navbar .nav-link{
+        padding:7px 0px !important;
+        height: auto !important;
+        border-bottom: 1px solid rgba(0, 128, 0, 0.377);
+    }
+    .navbar-collapse{
+        border-top: 2px dotted green;
+        margin-top: 20px;
+    }
+}
+
+.nav-icon{
+    padding: 0px !important;
+    color: white;
+    padding-top: 10px !important;
+    overflow: visible !important;
+}
+@media (max-width :330px){
+    .img-brand{
+        width: 150px !important;
+    }
+}
+
+.btn-backToTop{
+    width: 50px !important;
+    height: 50px !important;
+    padding: 0 !important;
+    border: none !important;
+    transition: opacity 1s, bottom 0.3s !important;
+    color: #3ad654;
+    position: fixed !important;
+    bottom: 30px ;
+    right: 10px !important;
+    box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.3) !important;
+    font-size: 20px !important;
+    z-index:9999;
+    border-radius: 100px !important;
+}
+.btn-backToTop:focus{
+    box-shadow: 2px 4px 2px 1px rgba(0,0,0,0.3) !important;
+}

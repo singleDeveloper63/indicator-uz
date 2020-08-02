@@ -1,0 +1,10 @@
+.search button{
+    height: 50px !important;
+    font-size: 20px !important;
+}
+
+.dropdown-item{
+    font-size: 20px !important;
+    height: 50px !important;
+    text-align:left !important;
+}

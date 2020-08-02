@@ -1,0 +1,146 @@
+*{
+    text-decoration: none !important;
+    outline: none !important;
+}
+@font-face{
+    font-family: Standart;
+    src: url(./Assets/Fonts/DidactGothic-Regular.ttf);
+}
+
+*{
+    font-family: Standart;
+    letter-spacing: 0px !important;
+    word-spacing: 0px !important;
+}
+.dropdown-item{
+    transition:0.3s !important;
+    border-radius: 0px !important;
+    border-bottom: 1px solid lightgray;
+}
+.dropdown-item:active,.dropdown-item:hover{
+    background: #3ad654;
+    color: white !important;
+}
+.dropdown-item:last-of-type{
+    border-bottom: none !important;
+}
+.btn-indicator{
+    background: #3ad654 !important;
+    color: white !important;
+    border-radius: 0px !important;
+}
+
+*:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.input-group-append>.btn-indicator.dropdown-toggle{
+    background: white !important;
+    color: rgb(141, 141, 141) !important;
+    border: 1px solid lightgray !important;
+    border-left: none !important;
+}
+.bg-indicator{
+    background: #3ad654 !important;
+    color: white !important;
+}
+
+*[data-badge]::after{
+    content:attr(data-badge);
+    position: absolute;
+    font-size:.65em;
+    background:orange;
+    color:white;
+    right: 7px;
+    width:25px;
+    top: 0px;
+    height:25px;
+    text-align:center;
+    padding-top: 1px;
+    line-height:22px;
+    border-radius:50%;
+    box-shadow:0 0 1px #333;
+}
+
+@media (max-width:1199px){
+    *[data-badge]::after{
+        left:35px;    
+        top: 0px;
+    }
+}
+.nav-link{
+    height: 40px;
+}
+.dropdown-menu{
+    animation:0.3s slideIn linear 1;
+}
+
+@keyframes slideIn{
+    from{
+        opacity: 0;
+        margin-top: 30px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+::-webkit-validation-bubble-arrow{
+    color: red !important;
+}
+
+
+ input{
+    height: 50px;
+    border: none;
+    color: gray;
+    border: 1px solid lightgray;
+}
+
+input:focus{
+    border : 2px solid #3ad654 !important;
+}
+.input-group input:focus{
+    border: 2px solid #3ad654;
+    border-right: none !important;
+}
+ .input-group input:focus + .input-group-btn button{
+    border: 2px solid #3ad654;
+    color: #3ad654;
+}
+
+.input-group input:focus + .input-group-append{
+    border: 2px solid #3ad654 !important;
+    color: #3ad654;
+    border-left: none !important;
+}
+
+
+.input-group input:focus + .dropdown button{
+    border: 2px solid #3ad654 !important;
+    color: #3ad654;
+    border-left: none !important;
+}
+
+
+.input-group input{
+    transition: 0;
+    border-right: none;
+    border-radius: 5px 0px 0px 5px !important;
+}
+.input-group button{
+    height: 50px;
+    color: gray;
+    border: 1px solid lightgray;
+    border-left: none !important;
+    border-radius: 0px 5px 5px 0px;
+}
+form h4{
+    font-weight: 900 !important;
+    color: darkslategray;
+}
+
+.form-group h5{
+    font-weight: 900;
+}

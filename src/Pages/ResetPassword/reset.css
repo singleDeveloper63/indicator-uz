@@ -1,0 +1,16 @@
+.reset .card{
+    width:500px
+}
+
+.reset .input-group-btn button{
+    color: gray !important;
+}
+.reset .btn-indicator{
+    height: 50px !important;
+    width: 80% !important;
+    border-radius: 5px !important;
+    font-weight: 900 !important;
+}
+.reset h5{
+    color: darkslategray !important;
+}
